@@ -13,8 +13,8 @@ public class DriverManager {
 
 //    @Before
     public void invokeBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\sjain1\\Downloads\\chromedriver_win32\\chromedriver.exe");
-//        System.setProperty("webdriver.gecko.driver", "C:\\Users\\sjain1\\Downloads\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+//        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
         driver = new ChromeDriver();
 //        driver=new FirefoxDriver();
 //        driver.get("https://www.instagram.com/accounts/login/?hl=en");
